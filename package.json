@@ -1,0 +1,50 @@
+{
+  "name": "base-security-scanner-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for AI agents to scan smart contracts on Base mainnet for security vulnerabilities. Detect honeypots, rug pulls, hidden mints, proxy patterns, bytecode analysis, and generate full audit reports.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "base-security-scanner-mcp": "dist/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist/",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "base",
+    "security",
+    "scanner",
+    "audit",
+    "honeypot",
+    "rug-pull",
+    "bytecode",
+    "smart-contract",
+    "ai-agent",
+    "claude",
+    "cursor",
+    "model-context-protocol",
+    "onchain",
+    "read-only",
+    "erc20"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "ethers": "^6.13.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}

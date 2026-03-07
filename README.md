@@ -2,6 +2,10 @@
 
 MCP server for AI agents to scan smart contracts on Base mainnet for security vulnerabilities. Detect honeypots, rug pulls, hidden mints, proxy patterns, and generate full audit reports -- all read-only, no private key needed.
 
+<a href="https://glama.ai/mcp/servers/@lordbasilaiassistant-sudo/base-security-scanner-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@lordbasilaiassistant-sudo/base-security-scanner-mcp/badge" alt="base-security-scanner-mcp MCP server" />
+</a>
+
 ## Install
 
 ```bash

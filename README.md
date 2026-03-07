@@ -48,6 +48,21 @@ npx -y base-security-scanner-mcp
 - **Rug Scoring**: Weighted algorithm combining ownership, liquidity depth, dangerous permissions, honeypot status
 - **Clone Detection**: Jaccard similarity on function selector sets
 
+## Related MCP Servers
+
+| Package | Tools | What it does |
+|---------|-------|-------------|
+| `obsd-launchpad-mcp` | 14 | Deploy tokens, trade, earn OBSD |
+| `base-security-scanner-mcp` | 8 | Scan contracts for vulnerabilities |
+| `base-price-oracle-mcp` | 7 | On-chain price feeds from DEX pools |
+| `base-multi-wallet-mcp` | 8 | Coordinated multi-wallet trading |
+| `base-gasless-deploy-mcp` | 5 | Gasless ERC-20 token deployment |
+| `base-flash-arb-mcp` | 7 | Detect arbitrage opportunities |
+| `base-token-sniper-mcp` | 5 | Discover & trade new launches |
+| `base-wallet-toolkit-mcp` | 7 | Wallet balances, gas, tokens |
+| `base-contract-reader-mcp` | 6 | Read any smart contract (free) |
+| `create-mcp-server-cli` | - | Scaffold a new MCP server |
+
 ## License
 
 MIT

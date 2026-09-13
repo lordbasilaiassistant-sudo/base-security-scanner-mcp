@@ -1,7 +1,7 @@
 {
   "name": "base-security-scanner-mcp",
   "mcpName": "io.github.lordbasilaiassistant-sudo/base-security-scanner-mcp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MCP server for AI agents to scan and audit smart contracts on Base for security vulnerabilities. Detect honeypots, rug pulls, hidden mints, proxy risks, and generate full audit reports.",
   "type": "module",
   "main": "dist/index.js",
